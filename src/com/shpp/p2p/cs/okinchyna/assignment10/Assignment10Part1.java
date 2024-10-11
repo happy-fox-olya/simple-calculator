@@ -9,10 +9,6 @@ public class Assignment10Part1 {
     private Stack<Character> OPERATORS;
     public static void main(String[] args) {
 
-    }
-
-
-    private void multiple() {
 
     }
 }
