@@ -4,7 +4,7 @@ public class MathMultiply implements MathComposite {
     private final MathComposite left;
     private final MathComposite right;
 
-    public MathMultiply(MathComposite left, MathComposite right) {
+    public MathMultiply(MathComposite right, MathComposite left) {
         this.left = left;
         this.right = right;
     }

@@ -4,13 +4,13 @@ public class MathDivide implements MathComposite {
     private final MathComposite left;
     private final MathComposite right;
 
-    public MathDivide(MathComposite left, MathComposite right) {
+    public MathDivide(MathComposite right, MathComposite left) {
         this.left = left;
         this.right = right;
     }
 
     @Override
     public double calculate() {
-        return left.calculate() / right.calculate();
+      return left.calculate() / right.calculate();
     }
 }

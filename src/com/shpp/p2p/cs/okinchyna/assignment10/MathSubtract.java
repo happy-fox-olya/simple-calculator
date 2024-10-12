@@ -4,7 +4,7 @@ public class MathSubtract implements MathComposite {
     private final MathComposite left;
     private final MathComposite right;
 
-    public MathSubtract(MathComposite left, MathComposite right) {
+    public MathSubtract(MathComposite right, MathComposite left) {
         this.left = left;
         this.right = right;
     }
